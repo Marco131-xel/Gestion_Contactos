@@ -1,0 +1,3 @@
+D:/Documentos/Marco/Programacion/Progra C_C++/PROYECTOS/Gestion_Contactos/Gestion_Contactos/cmake-build-debug/CMakeFiles/Gestion_Contactos.dir
+D:/Documentos/Marco/Programacion/Progra C_C++/PROYECTOS/Gestion_Contactos/Gestion_Contactos/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documentos/Marco/Programacion/Progra C_C++/PROYECTOS/Gestion_Contactos/Gestion_Contactos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

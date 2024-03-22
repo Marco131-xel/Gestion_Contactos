@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Gestion_Contactos",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestion_Contactos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestion_Contactos-Debug-cbf49ec89add0bd56ab1.json",
+					"name" : "Gestion_Contactos",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Documentos/Marco/Programacion/Progra C_C++/PROYECTOS/Gestion_Contactos/Gestion_Contactos/cmake-build-debug",
+		"source" : "D:/Documentos/Marco/Programacion/Progra C_C++/PROYECTOS/Gestion_Contactos/Gestion_Contactos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
