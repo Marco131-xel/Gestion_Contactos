@@ -1,0 +1,9 @@
+# ninja log v5
+2	499	7334620064737679	CMakeFiles/Gestion_Contactos.dir/main.cpp.obj	7b7cd82ca8e21c82
+499	601	7334620065741540	Gestion_Contactos.exe	482fc4f8cf5de66d
+15	300	7334648046367088	CMakeFiles/Gestion_Contactos.dir/Grupo.cpp.obj	8d1584d867823419
+5	348	7334648046847185	CMakeFiles/Gestion_Contactos.dir/Contacto.cpp.obj	1a821c3e702796db
+2	443	7334648047794876	CMakeFiles/Gestion_Contactos.dir/main.cpp.obj	7b7cd82ca8e21c82
+12	510	7334648048445507	CMakeFiles/Gestion_Contactos.dir/Utilidades.cpp.obj	400e529920b69d14
+9	553	7334648048886691	CMakeFiles/Gestion_Contactos.dir/TablaHash.cpp.obj	4f84d39a87c234f8
+553	677	7334648050113801	Gestion_Contactos.exe	f5a7f0c8522ab48e
