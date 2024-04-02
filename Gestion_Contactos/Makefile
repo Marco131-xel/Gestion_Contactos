@@ -1,22 +1,22 @@
+# Nombre del ejecutable
+TARGET = Gestion
+
+# Compilador
 CXX = g++
+
+# Opciones de compilación
 CXXFLAGS = -std=c++11 -Wall
-SRC_DIR = src
-OBJ_DIR = obj
-BIN_DIR = bin
 
-SRCS = $(wildcard $(SRC_DIR)/*.cpp)
-OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRCS))
-EXEC = $(BIN_DIR)/main
+# Archivos fuente
+SRCS = Comando.h Contacto.cpp Contacto.h Grupo.cpp Grupo.h main.cpp TablaHash.cpp TablaHash.h Utilidades.cpp Utilidades.h
 
-$(EXEC): $(OBJS)
-    @mkdir -p $(BIN_DIR)
-    $(CXX) $(CXXFLAGS) $^ -o $@
+# Regla principal: compilar el programa
+$(TARGET): $(SRCS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp $(wildcard $(SRC_DIR)/*.h)
-    @mkdir -p $(OBJ_DIR)
-    $(CXX) $(CXXFLAGS) -c $< -o $@
-
+# Regla para limpiar archivos generados
 clean:
-    rm -rf $(OBJ_DIR) $(BIN_DIR)
+	rm -f $(TARGET)
 
+# Regla para eliminar los archivos temporales generados durante la compilación
 .PHONY: clean
